@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body-login">
+
+    <header>
+        
+        <div class="background">
+            <div class="menu container">
+                <a href="index.html" class="logo">ForoNews</a>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="imagenes/menu.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul class="menu-horizontal">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>
+                            <a href="#">Categorias</a>
+                            <ul class="menu-vertical">
+                                <li><a href="gaming.html">Gaming</a></li>
+                                <li><a href="anime.html">Anime</a></li>
+                                <li><a href="peliculas.html">Movies</a></li>
+                                <li><a href="deportes.html">Deportes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container-form register">
+        <div class="informacion">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Unete a nuestro foro para tener las noticias mas recientes y los topics mas nuevos</p>
+                <input type="button" value="Iniciar Sesion" id="sign-in">
+            </div>
+        </div>
+        <div class="form-informacion">
+            <div class="form-informacion-childs">
+                <h2>Crear una Cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <p>o usa tu correo electronico.</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user' ></i>
+                        <input type="text" placeholder="Nombre Completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Correo Electronico">
+                    </label>
+                    <label>
+                        <i class='bx bxs-key' ></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-form login hide">
+        <div class="informacion">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Unete a nuestro foro para tener las noticias mas recientes y los topics mas nuevos</p>
+                <input type="button" value="Registrarse" id="sign-up">
+            </div>
+        </div>
+        <div class="form-informacion">
+            <div class="form-informacion-childs">
+                <h2>Iniciar Sesion</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+                </div>
+                <p>Inicia Sesion con una cuenta.</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Correo Electronico">
+                    </label>
+                    <label>
+                        <i class='bx bxs-key' ></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <input type="submit" value="Iniciar Sesion">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
